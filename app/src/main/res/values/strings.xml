@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pune Tour Guide</string>
+    <string name="treak">TREAK</string>
+    <string name="smallTrip">SMALL TRIP</string>
+    <string name="beaches">BEACHES</string>
+    <string name="lohagad">Lohagad</string>
+    <string name="map">Map</string>
+    <string name="lohagadInfo">Lohagad (Marathi: लोहगड, iron fort) is one of the many hill forts of Maharashtra state in India. Situated close to the hill station Lonavala and 52 km (32 mi) northwest of Pune, Lohagad rises to an elevation of 1,033 m (3,389 ft) above sea level.</string>
+    <string name="lavasa">Lavasa</string>
+    <string name="lavasaInfo">Lavasa is a private, planned city being built near Pune. It is stylistically based on the Italian town Portofino, with a street and several buildings bearing the name of that town. \n
+Elevation: 640 m \n
+Area: 100 km² \n
+Weather: 24°C, Wind W at 18 km/h, 86% Humidity</string>
+    <string name="diveagar">Diveagar</string>
+    <string name="diveagarInfo">Diveagar is a village located in Shrivardhan Taluka, Raigad district in the Indian state of Maharashtra, approximately 170 kilometers south of Mumbai.The area is peaceful, clean and sparsely populated.</string>
+</resources>
