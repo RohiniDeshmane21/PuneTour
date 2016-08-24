@@ -10,7 +10,7 @@ import android.widget.Button;
 import java.util.Locale;
 
 public class beaches extends AppCompatActivity {
-    Button map;
+    Button map,previous;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,7 @@ public class beaches extends AppCompatActivity {
 
         setTitle(getString(R.string.beaches));
         map = (Button)findViewById(R.id.btnMap);
+        previous = (Button)findViewById(R.id.btnPrevious);
 
         /*
         Open map on map button click
@@ -29,6 +30,15 @@ public class beaches extends AppCompatActivity {
                 String uri = String.format(Locale.ENGLISH, "geo:%f,%f",18.1920, 72.9789);
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
                 startActivity(intent);
+            }
+        });
+
+        previous.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(beaches.this,
+                        smallTrip.class);
+                startActivity(myIntent);
             }
         });
     }

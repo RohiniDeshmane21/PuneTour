@@ -13,4 +13,6 @@ Area: 100 km² \n
 Weather: 24°C, Wind W at 18 km/h, 86% Humidity</string>
     <string name="diveagar">Diveagar</string>
     <string name="diveagarInfo">Diveagar is a village located in Shrivardhan Taluka, Raigad district in the Indian state of Maharashtra, approximately 170 kilometers south of Mumbai.The area is peaceful, clean and sparsely populated.</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
 </resources>
