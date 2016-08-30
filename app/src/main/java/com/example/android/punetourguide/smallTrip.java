@@ -11,7 +11,7 @@ import java.util.Locale;
 
 public class smallTrip extends AppCompatActivity {
 
-    Button map,next,previous;
+    Button map;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,8 +19,6 @@ public class smallTrip extends AppCompatActivity {
         setContentView(R.layout.activity_small_trip);
         setTitle("SMALL TRIP");
         map = (Button)findViewById(R.id.btnMap);
-        next = (Button)findViewById(R.id.btnNext);
-        previous = (Button)findViewById(R.id.btnPrevious);
 
         map.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,22 +29,5 @@ public class smallTrip extends AppCompatActivity {
             }
         });
 
-        next.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myIntent = new Intent(smallTrip.this,
-                        beaches.class);
-                startActivity(myIntent);
-            }
-        });
-
-        previous.setOnClickListener((new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myIntent = new Intent(smallTrip.this,
-                        treakInfo.class);
-                startActivity(myIntent);
-            }
-        }));
     }
 }

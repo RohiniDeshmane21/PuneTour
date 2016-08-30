@@ -10,7 +10,7 @@ import android.widget.Button;
 import java.util.Locale;
 
 public class treakInfo extends AppCompatActivity {
-    Button map,next;
+    Button map;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,6 @@ public class treakInfo extends AppCompatActivity {
         setContentView(R.layout.activity_treak_info);
         setTitle("TREAK");
         map = (Button)findViewById(R.id.btnMap);
-        next = (Button)findViewById(R.id.btnNext);
 
         map.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,13 +28,5 @@ public class treakInfo extends AppCompatActivity {
             }
         });
 
-        next.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myIntent = new Intent(treakInfo.this,
-                        smallTrip.class);
-                startActivity(myIntent);
-            }
-        });
     }
 }
