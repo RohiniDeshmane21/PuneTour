@@ -16,32 +16,43 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".treakInfo"
+            android:name=".TreakInfoActivity"
             android:label="@string/treak"
             android:parentActivityName=".MainActivity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
-            </activity>
-
-        <activity android:name=".smallTrip"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".SmallTripActivity"
             android:label="@string/smallTrip"
             android:parentActivityName=".MainActivity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
         </activity>
-
-        <activity android:name=".beaches"
+        <activity
+            android:name=".BeachesActivity"
             android:label="@string/beaches"
             android:parentActivityName=".MainActivity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
         </activity>
+        <activity android:name=".RestaurantActivity"
+            android:label="@string/beaches"
+            android:parentActivityName=".MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" /></activity>
     </application>
 
 </manifest>

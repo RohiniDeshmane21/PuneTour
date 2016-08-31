@@ -12,11 +12,11 @@ import java.util.ArrayList;
 /**
  * Created by Rupali on 30-08-2016.
  */
-public class informationAdapter extends ArrayAdapter<information> {
+public class InformationAdapter extends ArrayAdapter<Information> {
     @Override
     public View getView(final int position, View convertView, ViewGroup parent)
     {
-        final information currentCategory = getItem(position);
+        final Information currentCategory = getItem(position);
         //check if existing view is being reused, otherwise inflate the new
         View listitemView = convertView;
 
@@ -43,7 +43,7 @@ public class informationAdapter extends ArrayAdapter<information> {
         return listitemView;
     }
 
-    public  informationAdapter(Activity context, ArrayList<information> numbers)
+    public InformationAdapter(Activity context, ArrayList<Information> numbers)
     {
         super(context,0,numbers);
 

@@ -3,16 +3,41 @@
     <string name="treak">TREAK</string>
     <string name="smallTrip">SMALL TRIP</string>
     <string name="beaches">BEACHES</string>
-    <string name="lohagad">Lohagad</string>
+    <string name="retaurant">Restaurant</string>
     <string name="map">Map</string>
+
+    <string name="lohagad">Lohagad</string>
     <string name="lohagadInfo">Lohagad (Marathi: लोहगड, iron fort) is one of the many hill forts of Maharashtra state in India. Situated close to the hill station Lonavala and 52 km (32 mi) northwest of Pune, Lohagad rises to an elevation of 1,033 m (3,389 ft) above sea level.</string>
+    <string name="tikona">Tikona</string>
+    <string name="tikonaInfo">Tikona also known as Vitandgad is the dominant hill fort in Maval in western India. It is located near Kamshet around 60 km from Pune. The village nearest to the fort is called Tikona-Peth.</string>
+    <string name="visapur">Visapur</string>
+    <string name="visapurInfo">Visapur Fort is larger and at a higher elevation than its twin fort- Lohagad. Within the fort are caves, cisterns of water, a decorated arch and old houses. These two roofless buildings surrounded by outer or veranda walls said to have once been Government offices. The ruins of a large stone-built house are known as the Peshwa palace. In addition to a huge carving of Hanuman, there are also several temple dedicated to him scattered all over the place. Hanuman (or Maruti) was likely the patron deity of Visapur fort.</string>
+
     <string name="lavasa">Lavasa</string>
     <string name="lavasaInfo">Lavasa is a private, planned city being built near Pune. It is stylistically based on the Italian town Portofino, with a street and several buildings bearing the name of that town. \n
 Elevation: 640 m \n
 Area: 100 km² \n
 Weather: 24°C, Wind W at 18 km/h, 86% Humidity</string>
+    <string name="lonavla">Lonavla</string>
+    <string name="lonavlaInfo">Lonavala is a hill station surrounded by green valleys in western India near Mumbai. The Karla Caves and the Bhaja Caves are ancient Buddhist shrines carved out of the rock. They feature massive pillars and intricate relief sculptures. South of the Bhaja Caves sits the imposing Lohagad Fort, with its 4 gates.</string>
+    <string name="pavna">Pavna</string>
+    <string name="pavnaInfo">Pawna Lake, located about 15kms from Lonavala, is a beautiful, unexplored location that is ideal for a great weekend getaway. Near yet far away from the crowded Lonavala city, you can camp here with us and enjoy the nature at its best.</string>
+
     <string name="diveagar">Diveagar</string>
     <string name="diveagarInfo">Diveagar is a village located in Shrivardhan Taluka, Raigad district in the Indian state of Maharashtra, approximately 170 kilometers south of Mumbai.The area is peaceful, clean and sparsely populated.</string>
+    <string name="harihareshwar">Harihareshwar</string>
+    <string name="harihareshwarInfo">Harihareshwar is a town in Raigad district, in Maharashtra, India. It is surrounded by four hills named Harihareshwar, Harshinachal, Bramhadri and Pushpadri. The river Savitri enters the Arabian Sea from the town of Harihareshwar.</string>
+    <string name="murud">Murud</string>
+    <string name="murudInfo">Murud-Janjira is the local name for a fort situated on an island just off the coastal village of Murud, in the Raigad district of Maharashtra, India.</string>
+
+    <string name="bashoRestaurant">Basho</string>
+    <string name="bashoAddress">Address \n
+Gonavdi Gaon, Mulshi Lake, Pune, Mulshi Road, Pune</string>
+    <string name="durvankur">Durvankur</string>
+    <string name="durvankurAddress">Address \nShop No. 1166, Tilak Road, Hatti Ganapati Chowk, Near Sahitya Parishad, Sadashiv Peth, Pune, Maharashtra 411030
+\nPhone: 020 2447 4438</string>
+
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+
 </resources>
